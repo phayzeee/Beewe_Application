@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bewe"
+        android:background="@drawable/ic_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="Welcome"
+        android:textSize="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/bewe"
+        android:layout_marginStart="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_a"
+        android:layout_below="@+id/welcome"
+        android:text="Login with Facebook or Email"
+        android:textSize="16dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb"
+        android:background="@drawable/ic_facebook"
+        android:layout_below="@+id/txt_a"
+        android:layout_marginStart="40dp"
+        android:clickable="true"
+        android:layout_marginTop="22dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb_txt"
+        android:text="Facebook"
+        android:textSize="22dp"
+        android:layout_below="@+id/txt_a"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="41dp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gog"
+        android:background="@drawable/ic_google"
+        android:layout_below="@+id/fb"
+        android:clickable="true"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gog_txt"
+        android:text="Google"
+        android:textSize="22dp"
+        android:layout_below="@+id/fb_txt"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="46dp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/log_below"
+        android:text="By Continuing agree our Privacy Policy"
+        android:layout_marginTop="680dp"
+        android:layout_marginStart="65dp"/>
+
+
+
+</RelativeLayout>

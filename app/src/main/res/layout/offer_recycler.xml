@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/third_layout"
+    android:layout_marginTop="10dp"
+    android:elevation="6dp"
+    android:background="#ffffff"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_a"
+        android:text="Lorem Ipsum"
+        android:fontFamily="@font/seguisb"
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FB9F3B"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_b"
+        android:fontFamily="@font/segoeui"
+        android:textSize="16dp"
+        android:layout_below="@+id/text_a"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/btn_a"
+        android:layout_below="@id/text_b"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/colored_rec"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="6dp"
+        android:text="get 00% discount"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/seguisb"
+        android:paddingStart="5dp"
+        android:paddingEnd="3dp"
+        android:textAllCaps="false"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_a"
+        android:id="@+id/lol"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+        android:textSize="9dp"
+        android:layout_marginTop="-20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lol_a"
+        android:text="Read More"
+        android:layout_below="@+id/btn_a"
+        android:layout_marginTop="-26dp"
+        android:layout_marginStart="320dp"
+        android:textColor="#FB9F3B"/>
+
+
+</RelativeLayout>

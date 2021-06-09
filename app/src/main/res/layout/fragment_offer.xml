@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.offer.OfferFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/toolbar_a"
+        android:elevation="3dp"
+        android:background="#FFFFFF">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_q"
+                android:text="Transaction Successful"
+                android:fontFamily="@font/seguisb"
+                android:textSize="24dp"
+                android:layout_marginStart="65dp"
+                android:layout_gravity="center"
+                android:textColor="#FB9F3B"
+                />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/toolbar_a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bewe_recycl"/>
+
+
+</RelativeLayout>

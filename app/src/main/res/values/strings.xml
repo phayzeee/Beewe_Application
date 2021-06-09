@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Beewe</string>
+    <string name="title_activity_bewe_bottom">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_offer">Offer</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="ul_string"> <u>View</u> </string>
+    <string name="mlml">TERMS &amp; CONDITIONS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

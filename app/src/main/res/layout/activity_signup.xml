@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Signup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/abc"
+            android:layout_marginTop="29dp"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="110dp"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/name_txt"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/name"
+            android:hint="Peter"
+            android:layout_marginStart="37dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginTop="8dp"
+            android:elevation="6dp"
+            android:background="@drawable/custom_edit"
+            android:paddingStart="18dp"
+            />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_txt"
+            android:layout_marginStart="35dp"
+            android:text="Email"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/email_txt"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/email"
+            android:layout_marginStart="37dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/custom_edit"
+            android:paddingStart="18dp"
+            android:elevation="6dp"
+            android:hint="Peter@gmail.com"
+            android:inputType="textEmailAddress"
+            />
+
+        <TextView
+            android:id="@+id/pn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_txt"
+            android:layout_marginStart="35dp"
+            android:text="Phone Number"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/pn_txt"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/pn"
+            android:layout_marginStart="37dp"
+            android:elevation="6dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/custom_edit"
+            android:paddingStart="18dp"
+            android:hint="+92 3452231312"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pn_txt"
+            android:layout_marginStart="35dp"
+            android:text="Password"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/pass_txt"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/pass"
+            android:layout_marginStart="37dp"
+            android:layout_marginEnd="34dp"
+            android:elevation="6dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/custom_edit"
+            android:paddingStart="18dp"
+            android:hint="***********"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:id="@+id/cnfpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pass_txt"
+            android:layout_marginStart="35dp"
+            android:text="Confirm Password"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/cnfpass_txt"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/cnfpass"
+            android:layout_marginStart="37dp"
+            android:layout_marginEnd="34dp"
+            android:elevation="6dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/custom_edit"
+            android:paddingStart="18dp"
+            android:hint="***********"
+            android:inputType="textPassword"
+            />
+        <TextView
+            android:id="@+id/cntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cnfpass_txt"
+            android:layout_marginStart="35dp"
+            android:text="Country"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/cntry_txt"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/cntry"
+            android:layout_marginStart="37dp"
+            android:layout_marginEnd="34dp"
+            android:elevation="6dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/custom_edit"
+            android:paddingStart="18dp"
+            android:hint="America"
+            />
+
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="675dp"
+            android:background="@drawable/ic_pathh"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
